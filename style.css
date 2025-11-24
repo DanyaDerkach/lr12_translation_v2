@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+#content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 25px 40px;
+    text-align: center;
+    width: 300px;
+}
+#word {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#count {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#inputWord {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #8ea8c5;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: #648cb9;
+    transform: scale(1.05);
+}
+#statistics {
+    display: flex;
+    justify-content: center;
+}
+#correctCount,
+#incorrectCount {
+    font-size: 1.2rem;
+    margin: 5px 10px;
+}
+span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#correctCount {
+    color: #4caf50;
+}
+#incorrectCount {
+    color: #f44336;
+}
+#dificulty{
+    margin-top: 30px;
+}
+@media (orientation: portrait) {
+    #content {
+        width: 90%;
+        padding: 20px;
+    }
+    #word {
+    font-size: 120px;
+    margin: 50px;
+    }
+    #count {
+    font-size: 80px;
+    margin-bottom: 40px;
+    }
+    #correctCount,
+    #incorrectCount {
+    font-size: 40px;
+    margin: 20px 70px;
+    }
+    button {
+    font-size: 60px;
+    border-radius: 20px;
+    padding: 30px 60px;
+    margin-bottom: 50px;
+    }
+    span {
+    font-size: 50px;
+    }
+    #inputWord {
+    font-size: 40px;
+    padding: 30px;
+    width: 70%;
+    margin-bottom: 50px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    }
+    input[type="radio"] {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    }
+    #dificulty {
+        font-size: 70px;
+    }
+}
